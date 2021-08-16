@@ -1,0 +1,510 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<dict>
+		<key>playtime</key>
+		<string>Когда боец получил хит</string>
+		<key>type</key>
+		<string>vansaar</string>
+		<key>name</key>
+		<string>Усиленная подстёжка</string>
+		<key>text</key>
+		<string>До конца битвы броня этого бойца не модифицируется бронепробитием, когда боец получает хит от дальней атаки</string>
+		<key>number</key>
+		<integer>6</integer>
+		<key>group</key>
+		<integer>6</integer>
+	</dict>
+	<dict>
+		<key>playtime</key>
+		<string>На старте деплойки, до того как ставить бойцов</string>
+		<key>type</key>
+		<string>vansaar</string>
+		<key>name</key>
+		<string>Неожиданные союзники</string>
+		<key>text</key>
+		<string>Банда немедленно рекрутирует до 3х сабтеков бесплатно, но они покинут банду после битвы. Каждый сабтек вооружён лазганом или 2мя лазпистолями. Эти бойцы не входят в лимит банды на задание и берутся в дополнение (сверх лимита). Если у Вас нет моделек, чтоб разыграть этих бойцов - можете дискарднуть тактику и выбрать новую</string>
+		<key>number</key>
+		<integer>5</integer>
+		<key>group</key>
+		<integer>6</integer>
+	</dict>
+	<dict>
+		<key>playtime</key>
+		<string>Когда дружеский боец получает флешку</string>
+		<key>type</key>
+		<string>common</string>
+		<key>name</key>
+		<string>Всего несколько зубов???</string>
+		<key>text</key>
+		<string>Флешка игнорится. Остальные эффекты инджури дайсов - нет.</string>
+		<key>number</key>
+		<integer>4</integer>
+		<key>group</key>
+		<integer>6</integer>
+	</dict>
+	<dict>
+		<key>playtime</key>
+		<string>До броска на инициативу</string>
+		<key>type</key>
+		<string>common</string>
+		<key>name</key>
+		<string>Перехват инициативы</string>
+		<key>text</key>
+		<string>Ваша банда имеет приоритет в этом раунде. Если несколько банд разыгрывают эту карту - между ними прокидывается инициатива.</string>
+		<key>number</key>
+		<integer>3</integer>
+		<key>group</key>
+		<integer>6</integer>
+	</dict>
+	<dict>
+		<key>playtime</key>
+		<string>После того, как твой боец провалил хит ролл</string>
+		<key>type</key>
+		<string>common</string>
+		<key>name</key>
+		<string>Сапрессив</string>
+		<key>text</key>
+		<string>Цель запинена, даже если не получила хит</string>
+		<key>number</key>
+		<integer>2</integer>
+		<key>group</key>
+		<integer>6</integer>
+	</dict>
+	<dict>
+		<key>playtime</key>
+		<string>После деплойки, но до начала ходов</string>
+		<key>type</key>
+		<string>vansaar</string>
+		<key>name</key>
+		<string>Учебная стрельба</string>
+		<key>text</key>
+		<string>Можешь рероллить анмодифайд колы на аммочеках</string>
+		<key>number</key>
+		<integer>1</integer>
+		<key>group</key>
+		<integer>6</integer>
+	</dict>
+	<dict>
+		<key>playtime</key>
+		<string>Вместо активации бойца</string>
+		<key>type</key>
+		<string>common</string>
+		<key>name</key>
+		<string>Быстрое излечение</string>
+		<key>text</key>
+		<string>Выбери бойца. Он восстанавливает вунду или удаляет 1 флешку.</string>
+		<key>number</key>
+		<integer>6</integer>
+		<key>group</key>
+		<integer>5</integer>
+	</dict>
+	<dict>
+		<key>playtime</key>
+		<string>В ендфазе до того как твой оппонент начал делать рекавери тесты</string>
+		<key>type</key>
+		<string>vansaar</string>
+		<key>name</key>
+		<string>Ослабленная психика</string>
+		<key>text</key>
+		<string>Выбери серьёзно раненного бойца из банды соперника. Твой оппонент должен рольнуть экстра кубик на инджур, когда делает за него рекавери тест. В дополнение Вы можете выбрать, который инджури дайс применить, а какой дискарднуть.</string>
+		<key>number</key>
+		<integer>5</integer>
+		<key>group</key>
+		<integer>5</integer>
+	</dict>
+	<dict>
+		<key>playtime</key>
+		<string>Прежде чем ставить банду на поле</string>
+		<key>type</key>
+		<string>common</string>
+		<key>name</key>
+		<string>Отличная подготовка</string>
+		<key>text</key>
+		<string>Выберите своего бойца. До конца битвы все его пушки теряют скарс. Если не было скарса - получают плентифул.</string>
+		<key>number</key>
+		<integer>4</integer>
+		<key>group</key>
+		<integer>5</integer>
+	</dict>
+	<dict>
+		<key>playtime</key>
+		<string>Вместо активации бойца</string>
+		<key>type</key>
+		<string>common</string>
+		<key>name</key>
+		<string>Проклятие машины</string>
+		<key>text</key>
+		<string>Выберите вражеского бойца. Он походит аммочек за каждую свою пушку</string>
+		<key>number</key>
+		<integer>3</integer>
+		<key>group</key>
+		<integer>5</integer>
+	</dict>
+	<dict>
+		<key>playtime</key>
+		<string>После того, как задеплоились но до первого хода.</string>
+		<key>type</key>
+		<string>vansaar</string>
+		<key>name</key>
+		<string>Добыча информации</string>
+		<key>text</key>
+		<string>Ваш оппонент должен немедленно показать вам все оставшиеся несыгранные карты. После того, как вы их все прочитали - выберите 1. Ваш оппонент немедленно дискардит выбранную ганг тактику и случайно выбирает другую.</string>
+		<key>number</key>
+		<integer>2</integer>
+		<key>group</key>
+		<integer>5</integer>
+	</dict>
+	<dict>
+		<key>playtime</key>
+		<string>Когда боец проваливает армор сейв</string>
+		<key>type</key>
+		<string>common</string>
+		<key>name</key>
+		<string>Счастливая шкатулка в кармане</string>
+		<key>text</key>
+		<string>Реролл армор сейва, игноря любые отрицательные модификаторы (втч арморпирсинг)</string>
+		<key>number</key>
+		<integer>1</integer>
+		<key>group</key>
+		<integer>5</integer>
+	</dict>
+	<dict>
+		<key>playtime</key>
+		<string>Когда активируешь бойца, оружие которого разряжено</string>
+		<key>type</key>
+		<string>common</string>
+		<key>name</key>
+		<string>Счастливая находка</string>
+		<key>text</key>
+		<string>За 1 экшен оно считается перезаряженным без броска.</string>
+		<key>number</key>
+		<integer>6</integer>
+		<key>group</key>
+		<integer>4</integer>
+	</dict>
+	<dict>
+		<key>playtime</key>
+		<string>Перед деплойкой</string>
+		<key>type</key>
+		<string>vansaar</string>
+		<key>name</key>
+		<string>Телохранитель</string>
+		<key>text</key>
+		<string>Один боец с Ганг Файтер (Х), принадлежащей Вашей банде, но не являющийся частью стартового экипажа на миссию, может быть добавлен в стартовый экипаж. Номинируйте его к Лидеру или чемпиону в Вашей банде. До конца битвы выбранный боец следует правилам экзотик биста так, будто им бладеет лидер или чемпион.</string>
+		<key>number</key>
+		<integer>5</integer>
+		<key>group</key>
+		<integer>4</integer>
+	</dict>
+	<dict>
+		<key>playtime</key>
+		<string>На старте после деплойки</string>
+		<key>type</key>
+		<string>common</string>
+		<key>name</key>
+		<string>Продуманный план</string>
+		<key>text</key>
+		<string>Выбери до 3х бойцов, они немедленно могут сделать бесплатный мув (симпл экшен)</string>
+		<key>number</key>
+		<integer>4</integer>
+		<key>group</key>
+		<integer>4</integer>
+	</dict>
+	<dict>
+		<key>playtime</key>
+		<string>Когда активируешь бойца</string>
+		<key>type</key>
+		<string>common</string>
+		<key>name</key>
+		<string>Отъебись</string>
+		<key>text</key>
+		<string>Боец выходит из энгейджа без броска инициативы и не получает реакшен атак.</string>
+		<key>number</key>
+		<integer>3</integer>
+		<key>group</key>
+		<integer>4</integer>
+	</dict>
+	<dict>
+		<key>playtime</key>
+		<string>Когда оппонент активирует бойца</string>
+		<key>type</key>
+		<string>common</string>
+		<key>name</key>
+		<string>Разрушение</string>
+		<key>text</key>
+		<string>Боец проходет вилпавир чек. Если завалил - то у него 1 экшен вместо 2х.</string>
+		<key>number</key>
+		<integer>2</integer>
+		<key>group</key>
+		<integer>4</integer>
+	</dict>
+	<dict>
+		<key>playtime</key>
+		<string>На старте раунда, после броска на приоритет</string>
+		<key>type</key>
+		<string>common</string>
+		<key>name</key>
+		<string>Дезориентирующие тени</string>
+		<key>text</key>
+		<string>D3 бойцов противника до конца раунда имеют -1 БС и -1 инч на мув.</string>
+		<key>number</key>
+		<integer>1</integer>
+		<key>group</key>
+		<integer>4</integer>
+	</dict>
+	<dict>
+		<key>playtime</key>
+		<string>На старте игры, сразу как задеплоились</string>
+		<key>type</key>
+		<string>vansaar</string>
+		<key>name</key>
+		<string>Нейростимуляция</string>
+		<key>text</key>
+		<string>До конца битвы боец автоматически проходит броски на интеллект</string>
+		<key>number</key>
+		<integer>6</integer>
+		<key>group</key>
+		<integer>3</integer>
+	</dict>
+	<dict>
+		<key>playtime</key>
+		<string>На старте игры, сразу как задеплоились</string>
+		<key>type</key>
+		<string>vansaar</string>
+		<key>name</key>
+		<string>Кузница</string>
+		<key>text</key>
+		<string>До конца битвы все дружеские модели имеют +1 на аммо чеках</string>
+		<key>number</key>
+		<integer>5</integer>
+		<key>group</key>
+		<integer>3</integer>
+	</dict>
+	<dict>
+		<key>playtime</key>
+		<string>Когда боец стреляет</string>
+		<key>type</key>
+		<string>vansaar</string>
+		<key>name</key>
+		<string>Перегрузка</string>
+		<key>text</key>
+		<string>До конца активации бойца, его плазма или лазган увеличивает силу на 2</string>
+		<key>number</key>
+		<integer>4</integer>
+		<key>group</key>
+		<integer>3</integer>
+	</dict>
+	<dict>
+		<key>playtime</key>
+		<string>Когда активируешь бойца</string>
+		<key>type</key>
+		<string>vansaar</string>
+		<key>name</key>
+		<string>Беглый огонь</string>
+		<key>text</key>
+		<string>К 2м экшенам бойца бесплатно добавляется бэйсик экшен - стрельба</string>
+		<key>number</key>
+		<integer>3</integer>
+		<key>group</key>
+		<integer>3</integer>
+	</dict>
+	<dict>
+		<key>playtime</key>
+		<string>На начале любой ендфазы</string>
+		<key>type</key>
+		<string>vansaar</string>
+		<key>name</key>
+		<string>Автохил</string>
+		<key>text</key>
+		<string>Сириус инджур переводит автоматом во флешку на 1 бойце</string>
+		<key>number</key>
+		<integer>2</integer>
+		<key>group</key>
+		<integer>3</integer>
+	</dict>
+	<dict>
+		<key>playtime</key>
+		<string>Когда твой боец получил ХИТ от рейнджед атаки.</string>
+		<key>type</key>
+		<string>common</string>
+		<key>name</key>
+		<string>Опять ошибся</string>
+		<key>text</key>
+		<string>Выбери любого другого дружественного бойца в рейндже стрельбы и зоне видимости стреляющего. Выбранный - новая цель стрельбы, по которой случился хит.</string>
+		<key>number</key>
+		<integer>1</integer>
+		<key>group</key>
+		<integer>3</integer>
+	</dict>
+	<dict>
+		<key>playtime</key>
+		<string>В любой момент после расстановки стола, но ДО активации бойцов</string>
+		<key>type</key>
+		<string>common</string>
+		<key>name</key>
+		<string>Хорошо прикрытый</string>
+		<key>text</key>
+		<string>До конца раунда боец не может быть целью стрельбы, если только он не единственная возможная цель.</string>
+		<key>number</key>
+		<integer>6</integer>
+		<key>group</key>
+		<integer>2</integer>
+	</dict>
+	<dict>
+		<key>playtime</key>
+		<string>В момент кулл-чека</string>
+		<key>type</key>
+		<string>common</string>
+		<key>name</key>
+		<string>Всплеск мужества</string>
+		<key>text</key>
+		<string>До конца раунда все кулл-чеки этого бойца успешны</string>
+		<key>number</key>
+		<integer>5</integer>
+		<key>group</key>
+		<integer>2</integer>
+	</dict>
+	<dict>
+		<key>playtime</key>
+		<string>Вместо боттл - теста</string>
+		<key>type</key>
+		<string>common</string>
+		<key>name</key>
+		<string>Твёрдо стоим</string>
+		<key>text</key>
+		<string>В этом раунде успешный боттл-тест</string>
+		<key>number</key>
+		<integer>4</integer>
+		<key>group</key>
+		<integer>2</integer>
+	</dict>
+	<dict>
+		<key>playtime</key>
+		<string>После выбора крю</string>
+		<key>type</key>
+		<string>common</string>
+		<key>name</key>
+		<string>Особое бухло</string>
+		<key>text</key>
+		<string>Выбранный боец получает -1 ВС, -1 БС, -1Инт, но +2 к крутости</string>
+		<key>number</key>
+		<integer>3</integer>
+		<key>group</key>
+		<integer>2</integer>
+	</dict>
+	<dict>
+		<key>playtime</key>
+		<string>Деплойка</string>
+		<key>type</key>
+		<string>common</string>
+		<key>name</key>
+		<string>Тунели техобслуживания</string>
+		<key>text</key>
+		<string>Выбранный боец получает инфильтру</string>
+		<key>number</key>
+		<integer>2</integer>
+		<key>group</key>
+		<integer>2</integer>
+	</dict>
+	<dict>
+		<key>playtime</key>
+		<string>После того как любой боец промахнулся не бластом и не темплейтом</string>
+		<key>type</key>
+		<string>common</string>
+		<key>name</key>
+		<string>Рикошет</string>
+		<key>text</key>
+		<string>Выбери новую цель в 5 инчах от старой (даже если стрелок её не видит) и рольни на хит по нему.</string>
+		<key>number</key>
+		<integer>1</integer>
+		<key>group</key>
+		<integer>2</integer>
+	</dict>
+	<dict>
+		<key>playtime</key>
+		<string>На старте любого раунда до броска приоритета</string>
+		<key>type</key>
+		<string>common</string>
+		<key>name</key>
+		<string>Привентивный расчёт</string>
+		<key>text</key>
+		<string>До 2х файтеров могут сделать мув симпл экшен немедленно</string>
+		<key>number</key>
+		<integer>6</integer>
+		<key>group</key>
+		<integer>1</integer>
+	</dict>
+	<dict>
+		<key>playtime</key>
+		<string>Когда делаешь хит / вунд или инджури ролл</string>
+		<key>type</key>
+		<string>common</string>
+		<key>name</key>
+		<string>Счастливый выстрел</string>
+		<key>text</key>
+		<string>Реролл всех кубов, только что метнутых. Применяется новый результат даже если он хуже.</string>
+		<key>number</key>
+		<integer>5</integer>
+		<key>group</key>
+		<integer>1</integer>
+	</dict>
+	<dict>
+		<key>playtime</key>
+		<string>Когда 1 из ваших бойцов уходит в аут оф экшен</string>
+		<key>type</key>
+		<string>common</string>
+		<key>name</key>
+		<string>Последнее усилие</string>
+		<key>text</key>
+		<string>Прежде чем убрать бойца с поля боя - он немедленно делает атаку. Если боец заэнгейджен - ЦЦ атака, в другом случае - стрелковая. Если экипирован гранатой с Бласт трейтом - можно положить центр бласта на умирающего бойца и она взрывается без скаттера.</string>
+		<key>number</key>
+		<integer>4</integer>
+		<key>group</key>
+		<integer>1</integer>
+	</dict>
+	<dict>
+		<key>playtime</key>
+		<string>Когда боец стреляет по врагу, по которому стрелял другой дружеский боец</string>
+		<key>type</key>
+		<string>common</string>
+		<key>name</key>
+		<string>Перекрёстный огонь</string>
+		<key>text</key>
+		<string>Хит успешен автоматически</string>
+		<key>number</key>
+		<integer>3</integer>
+		<key>group</key>
+		<integer>1</integer>
+	</dict>
+	<dict>
+		<key>playtime</key>
+		<string>Когда активируешь своего бойца</string>
+		<key>type</key>
+		<string>common</string>
+		<key>name</key>
+		<string>Пылающая ярость</string>
+		<key>text</key>
+		<string>До конца хода бойца стрельба становится симпл экшеном, а не бэйсиком</string>
+		<key>number</key>
+		<integer>2</integer>
+		<key>group</key>
+		<integer>1</integer>
+	</dict>
+	<dict>
+		<key>playtime</key>
+		<string>Когда вражеский боец отстрелялся</string>
+		<key>type</key>
+		<string>common</string>
+		<key>name</key>
+		<string>Клик...</string>
+		<key>text</key>
+		<string>Оружие разряжено так, словно был не прокинут аммо-чек</string>
+		<key>number</key>
+		<integer>1</integer>
+		<key>group</key>
+		<integer>1</integer>
+	</dict>
+</array>
+</plist>

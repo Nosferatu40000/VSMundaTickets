@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="18122" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="18093"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Tab Bar Controller-->
+        <scene sceneID="esA-rg-fPS">
+            <objects>
+                <tabBarController id="qkQ-zi-jL1" sceneMemberID="viewController">
+                    <tabBar key="tabBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="P37-4H-nbA">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="49"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    </tabBar>
+                    <connections>
+                        <segue destination="kPk-10-fnY" kind="relationship" relationship="viewControllers" id="cOQ-OI-lgO"/>
+                        <segue destination="L0K-p9-MN5" kind="relationship" relationship="viewControllers" id="Fga-21-qcw"/>
+                    </connections>
+                </tabBarController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="A6i-bu-FMJ" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-1257" y="80"/>
+        </scene>
+        <!--Card list-->
+        <scene sceneID="PvJ-hQ-J3z">
+            <objects>
+                <navigationController id="kPk-10-fnY" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="Card list" image="doc.text" catalog="system" id="Nh6-Sh-jxD"/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="v56-dT-fpO">
+                        <rect key="frame" x="0.0" y="44" width="414" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <connections>
+                        <segue destination="BYZ-38-t0r" kind="relationship" relationship="rootViewController" id="TMz-U3-pl0"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="6Ox-gZ-SVv" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-430" y="-417"/>
+        </scene>
+        <!--Selected Cards-->
+        <scene sceneID="Zj2-fN-0hj">
+            <objects>
+                <navigationController id="L0K-p9-MN5" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="Selected Cards" image="arrow.up.doc" catalog="system" id="Wfw-ac-PnM"/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="W1Z-IL-yQU">
+                        <rect key="frame" x="0.0" y="44" width="414" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <connections>
+                        <segue destination="BYZ-38-t0r" kind="relationship" relationship="rootViewController" id="vbs-r7-Wm5"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="ZsH-nb-S8M" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-430" y="251"/>
+        </scene>
+        <!--Card list-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController storyboardIdentifier="CardListViewController" useStoryboardIdentifierAsRestorationIdentifier="YES" id="BYZ-38-t0r" customClass="CardListViewController" customModule="CardGen" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="none" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="apV-cA-HL0">
+                                <rect key="frame" x="0.0" y="88" width="414" height="725"/>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                            </tableView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" alpha="0.80000000000000004" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="common" translatesAutoresizingMaskIntoConstraints="NO" id="ECZ-mb-wTZ">
+                                <rect key="frame" x="87" y="154" width="240" height="358"/>
+                            </imageView>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="ECZ-mb-wTZ" secondAttribute="bottom" constant="301" id="Pam-WE-F8F"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="ECZ-mb-wTZ" secondAttribute="trailing" constant="87" id="UvO-IO-6CY"/>
+                            <constraint firstItem="ECZ-mb-wTZ" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="87" id="eJa-qt-2Is"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="apV-cA-HL0" secondAttribute="trailing" id="kCt-ba-vez"/>
+                            <constraint firstItem="apV-cA-HL0" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="m8G-gj-k9m"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="apV-cA-HL0" secondAttribute="bottom" id="mWV-XV-h9S"/>
+                            <constraint firstItem="ECZ-mb-wTZ" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="66" id="yVi-Si-hgv"/>
+                            <constraint firstItem="apV-cA-HL0" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" id="zhE-bQ-fvG"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" title="Card list" id="lkp-NA-5wQ">
+                        <barButtonItem key="rightBarButtonItem" title="add 1 random" image="swift" catalog="system" id="EMh-XY-1YP">
+                            <color key="tintColor" systemColor="systemGreenColor"/>
+                            <connections>
+                                <action selector="addRandomCard:" destination="BYZ-38-t0r" id="2Dk-mH-YwJ"/>
+                            </connections>
+                        </barButtonItem>
+                    </navigationItem>
+                    <connections>
+                        <outlet property="placeholder" destination="ECZ-mb-wTZ" id="Ncr-MP-fE2"/>
+                        <outlet property="rightBarButtonItem" destination="EMh-XY-1YP" id="Pfg-32-gzO"/>
+                        <outlet property="tableView" destination="apV-cA-HL0" id="opQ-WE-kBn"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="382.60869565217394" y="70.982142857142847"/>
+        </scene>
+    </scenes>
+    <inferredMetricsTieBreakers>
+        <segue reference="vbs-r7-Wm5"/>
+    </inferredMetricsTieBreakers>
+    <resources>
+        <image name="arrow.up.doc" catalog="system" width="115" height="128"/>
+        <image name="common" width="388" height="564"/>
+        <image name="doc.text" catalog="system" width="115" height="128"/>
+        <image name="swift" catalog="system" width="128" height="106"/>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+        <systemColor name="systemGreenColor">
+            <color red="0.20392156862745098" green="0.7803921568627451" blue="0.34901960784313724" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+    </resources>
+</document>
