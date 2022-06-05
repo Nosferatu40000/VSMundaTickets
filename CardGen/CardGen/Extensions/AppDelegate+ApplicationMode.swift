@@ -11,6 +11,7 @@ import Foundation
 extension UserDefaults {
     
     private static let applicationModeKey = "ApplicationModeKey"
+    private static let selectedGangKey = "SelectedGangKey"
     
     static func applicationMode() -> ApplicationMode {
         let rawMode = standard.integer(forKey: applicationModeKey)
@@ -20,5 +21,16 @@ extension UserDefaults {
     
     static func setApplicationMode(_ mode: ApplicationMode) {
         standard.set(mode.rawValue, forKey: applicationModeKey)
+    }
+
+    static func selectedGang() -> Gang {
+        guard let raw = standard.string(forKey: selectedGangKey), let gang = Gang(rawValue: raw) else {
+            return .vansaar
+        }
+        return gang
+    }
+
+    static func setSelected(gang: Gang) {
+        standard.set(gang.rawValue, forKey: selectedGangKey)
     }
 }

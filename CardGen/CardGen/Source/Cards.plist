@@ -4,6 +4,286 @@
 <array>
 	<dict>
 		<key>playtime</key>
+		<string>При активации бойца</string>
+		<key>type</key>
+		<string>common</string>
+		<key>name</key>
+		<string>Торопыжка</string>
+		<key>text</key>
+		<string>Положите эту карту под карту бойца. Пока она там мув бойца увеличен на 2. В конце каждой фазы киньте Д6, на 1 - дискард.</string>
+		<key>number</key>
+		<integer>5</integer>
+		<key>group</key>
+		<integer>5</integer>
+	</dict>
+	<dict>
+		<key>playtime</key>
+		<string>Когда 1 из бойцов теряет вунду</string>
+		<key>type</key>
+		<string>grinders</string>
+		<key>name</key>
+		<string>Кровавая ярость</string>
+		<key>text</key>
+		<string>Положите эту парту под карточку бойца, до конца боя он имеет Berserker скилл</string>
+		<key>number</key>
+		<integer>4</integer>
+		<key>group</key>
+		<integer>5</integer>
+	</dict>
+	<dict>
+		<key>playtime</key>
+		<string>Вместо активации бойца</string>
+		<key>type</key>
+		<string>grinders</string>
+		<key>name</key>
+		<string>Чемпион со струящейся кровью</string>
+		<key>text</key>
+		<string>Вражеский боец по вашему выбору должен пройти нерв тест с -2 или брокнуться.</string>
+		<key>number</key>
+		<integer>6</integer>
+		<key>group</key>
+		<integer>4</integer>
+	</dict>
+	<dict>
+		<key>playtime</key>
+		<string>Когда дружеский боец чарджит</string>
+		<key>type</key>
+		<string>grinders</string>
+		<key>name</key>
+		<string>Жажда крови</string>
+		<key>text</key>
+		<string>Выбери дружеского бойца с реди маркером. Когда чардж полностью реализован, выбранный боец может немедленно совершить чардж. Реди маркер считается использованным.</string>
+		<key>number</key>
+		<integer>3</integer>
+		<key>group</key>
+		<integer>4</integer>
+	</dict>
+	<dict>
+		<key>playtime</key>
+		<string>При активации бойца</string>
+		<key>type</key>
+		<string>grinders</string>
+		<key>name</key>
+		<string>Топор на всякий случай</string>
+		<key>text</key>
+		<string>До конца игры этот боец имеет дополнительный топор</string>
+		<key>number</key>
+		<integer>3</integer>
+		<key>group</key>
+		<integer>2</integer>
+	</dict>
+	<dict>
+		<key>playtime</key>
+		<string>Когда лидер или чемпион отправил вражеского бойца в аут оф экшен</string>
+		<key>type</key>
+		<string>grinders</string>
+		<key>name</key>
+		<string>Царствие крови</string>
+		<key>text</key>
+		<string>До конца игры его групповая активация действует на 1 бойца дополнительно.</string>
+		<key>number</key>
+		<integer>6</integer>
+		<key>group</key>
+		<integer>6</integer>
+	</dict>
+	<dict>
+		<key>playtime</key>
+		<string>Сразу как вытянул</string>
+		<key>type</key>
+		<string>grinders</string>
+		<key>name</key>
+		<string>Подпорченное мясо</string>
+		<key>text</key>
+		<string>Выбери бойца из стартинг крю оппонента. Он начинает игру с флешкой.</string>
+		<key>number</key>
+		<integer>2</integer>
+		<key>group</key>
+		<integer>6</integer>
+	</dict>
+	<dict>
+		<key>playtime</key>
+		<string>На старте сразу после деплоя</string>
+		<key>type</key>
+		<string>grinders</string>
+		<key>name</key>
+		<string>Заточенный край</string>
+		<key>text</key>
+		<string>Мили оружие бойца по выбору улучшает характеристику AP на 1</string>
+		<key>number</key>
+		<integer>1</integer>
+		<key>group</key>
+		<integer>6</integer>
+	</dict>
+	<dict>
+		<key>playtime</key>
+		<string>Вместо активации бойца</string>
+		<key>type</key>
+		<string>grinders</string>
+		<key>name</key>
+		<string>Страх предательства</string>
+		<key>text</key>
+		<string>Вражеский боец по вашему выбору с реди-маркером должен пройти кулл-чек. На фэйле он немедленно делает выстрел (бэйзик экшен) против ближайшего видимого бойца своей банды так, будто он вражеский боец. Затен он теряет реди маркер.</string>
+		<key>number</key>
+		<integer>3</integer>
+		<key>group</key>
+		<integer>1</integer>
+	</dict>
+	<dict>
+		<key>playtime</key>
+		<string>Когда активируется боец</string>
+		<key>type</key>
+		<string>grinders</string>
+		<key>name</key>
+		<string>Кровавый всплеск</string>
+		<key>text</key>
+		<string>До конца раунда боец получает эффект stimm-slug stash. В конце фазы проверка на передоз не требуется</string>
+		<key>number</key>
+		<integer>2</integer>
+		<key>group</key>
+		<integer>1</integer>
+	</dict>
+	<dict>
+		<key>playtime</key>
+		<string>На старте битвы после расстановки банды.</string>
+		<key>type</key>
+		<string>common</string>
+		<key>name</key>
+		<string>Огоневая дисциплина</string>
+		<key>text</key>
+		<string>До конца битвы, рейнджед атаки Ваших бойцов только тогда триггерят аммо-чек, когда дайс файрпавера рольнул аммо символ и при этом хит ролл был успешен.</string>
+		<key>number</key>
+		<integer>6</integer>
+		<key>group</key>
+		<integer>6</integer>
+	</dict>
+	<dict>
+		<key>playtime</key>
+		<string>Когда активируешь бойца</string>
+		<key>type</key>
+		<string>common</string>
+		<key>name</key>
+		<string>ТЫ!</string>
+		<key>text</key>
+		<string>Выберите вражескую модель в лосе до бойца, которого Вы активировали. До конца игры любые рейнджед или мили атаки, совершённые Вашим бойцом, по выбранному врагу получают +1 ту вунд. Боец может атаковать только выбранного врага до тех пор, пока тот не уйдёт в аут оф экшен</string>
+		<key>number</key>
+		<integer>5</integer>
+		<key>group</key>
+		<integer>6</integer>
+	</dict>
+	<dict>
+		<key>playtime</key>
+		<string>Когда вражеский боец завершил атаку рейнджед оружием</string>
+		<key>type</key>
+		<string>common</string>
+		<key>name</key>
+		<string>Ответный огонь</string>
+		<key>text</key>
+		<string>Боец из вашей банды может немедленно выстрелить по врагу из пистолета или бэйзик оружия с -1 на хит</string>
+		<key>number</key>
+		<integer>1</integer>
+		<key>group</key>
+		<integer>6</integer>
+	</dict>
+	<dict>
+		<key>playtime</key>
+		<string>Боец может потратить экшен, чтоб разыграть карту</string>
+		<key>type</key>
+		<string>common</string>
+		<key>name</key>
+		<string>Наскоро подшил броню</string>
+		<key>text</key>
+		<string>Кладётся под карту бойца. Пока там - сейвы увеличиваются на 1. Если выпала натуральная еденица на сейв-роле, то дискардится после резолва атак</string>
+		<key>number</key>
+		<integer>2</integer>
+		<key>group</key>
+		<integer>5</integer>
+	</dict>
+	<dict>
+		<key>playtime</key>
+		<string>В свой ход, перед активацией любого бойца</string>
+		<key>type</key>
+		<string>common</string>
+		<key>name</key>
+		<string>Групповая тактика</string>
+		<key>text</key>
+		<string>Вместо активации одного бойца - активируйте до 3х (аналогично групповой активации)</string>
+		<key>number</key>
+		<integer>5</integer>
+		<key>group</key>
+		<integer>4</integer>
+	</dict>
+	<dict>
+		<key>playtime</key>
+		<string>Когда Ваш боец совершает реакшен атаку</string>
+		<key>type</key>
+		<string>common</string>
+		<key>name</key>
+		<string>Контр-штурм</string>
+		<key>text</key>
+		<string>Реакшен атаки бойца получают +1 на хит. В дополнение он автоматически проходит инициативу на атаки по врагу, совершающему дизэнгейдженг</string>
+		<key>number</key>
+		<integer>6</integer>
+		<key>group</key>
+		<integer>3</integer>
+	</dict>
+	<dict>
+		<key>playtime</key>
+		<string>Когда Ваш боец совершает мили атаку</string>
+		<key>type</key>
+		<string>common</string>
+		<key>name</key>
+		<string>Боевые наркотики</string>
+		<key>text</key>
+		<string>Боец до конца раунда получает Д3 доп атак. Если получил 3 доп атаки, то в конце активации получаешь флешку</string>
+		<key>number</key>
+		<integer>5</integer>
+		<key>group</key>
+		<integer>3</integer>
+	</dict>
+	<dict>
+		<key>playtime</key>
+		<string>Когда Ваш боец отправляет врага в аут оф экшен мили атакой</string>
+		<key>type</key>
+		<string>common</string>
+		<key>name</key>
+		<string>Цепь атак</string>
+		<key>text</key>
+		<string>Боец может помуваться на Д6 и сделать файт бэйсик экшен. После этого активация немедленно кончается.</string>
+		<key>number</key>
+		<integer>4</integer>
+		<key>group</key>
+		<integer>3</integer>
+	</dict>
+	<dict>
+		<key>playtime</key>
+		<string>Когда 1 из ваших бойцов уходит в аут от экшен из за атаки вражеского бойца</string>
+		<key>type</key>
+		<string>common</string>
+		<key>name</key>
+		<string>Кровавый долг</string>
+		<key>text</key>
+		<string>До конца битвы добавляйте 1 клюбым хит роллам ваших бойцов по атакеру. Подсуньте эту карту под карту вражеского бойца как напоминание</string>
+		<key>number</key>
+		<integer>3</integer>
+		<key>group</key>
+		<integer>3</integer>
+	</dict>
+	<dict>
+		<key>playtime</key>
+		<string>Вместо активации бойца</string>
+		<key>type</key>
+		<string>common</string>
+		<key>name</key>
+		<string>Нет жалости к слабым</string>
+		<key>text</key>
+		<string>До конца раунда добавляйте 1 к результату любого вунд ролла бойцов вашей банды, когда они целят в бойцов с 1 или более флешкой</string>
+		<key>number</key>
+		<integer>2</integer>
+		<key>group</key>
+		<integer>3</integer>
+	</dict>
+	<dict>
+		<key>playtime</key>
 		<string>Когда боец получил хит</string>
 		<key>type</key>
 		<string>vansaar</string>

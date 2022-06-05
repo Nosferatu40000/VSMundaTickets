@@ -52,7 +52,7 @@ class CardListViewModel {
     func sourceArray() -> [Card] {
         switch mode {
         case .full:
-            return dataManager.allCards()
+            return dataManager.allGangCards()
         case .selected:
             return dataManager.allSelectedCards()
         }

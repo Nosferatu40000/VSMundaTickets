@@ -12,14 +12,25 @@ class GangViewModel {
     
     let title = "Банда"
     let cogImage = UIImage(systemName: "ant.circle")
+    let gangList = Gang.allCases
     
     var dataManager: DataManagerModeProtocol!
     
     func currentMode() -> ApplicationMode {
-        return dataManager.currentMode()
+        dataManager.currentMode()
     }
     
     func changeMode(_ mode: ApplicationMode) {
-        return dataManager.setCurrentMode(mode)
+        dataManager.setCurrentMode(mode)
+    }
+
+    func selectedGang() -> Gang {
+        dataManager.selectedGang()
+    }
+
+    func select(gang: Gang) {
+        dataManager.cleanSelected()
+        dataManager.select(gang: gang)
+        dataManager.refreshCards()
     }
 }

@@ -29,11 +29,20 @@
 		9FC61A7B26B84FD3007C67D9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9FC61A7A26B84FD3007C67D9 /* Assets.xcassets */; };
 		9FC61A7E26B84FD3007C67D9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9FC61A7C26B84FD3007C67D9 /* LaunchScreen.storyboard */; };
 		9FC61A8726B8539A007C67D9 /* Cards.plist in Resources */ = {isa = PBXBuildFile; fileRef = 9FC61A8626B8539A007C67D9 /* Cards.plist */; };
-		9FC61A8A26B86FB7007C67D9 /* Card.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FC61A8926B86FB7007C67D9 /* Card.swift */; };
 		9FC61A8D26B87276007C67D9 /* CardParcer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FC61A8C26B87276007C67D9 /* CardParcer.swift */; };
 		9FC61A8F26B87546007C67D9 /* DataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FC61A8E26B87546007C67D9 /* DataManager.swift */; };
-		9FC61A9326B87760007C67D9 /* CardListCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FC61A9126B87760007C67D9 /* CardListCell.swift */; };
-		9FC61A9426B87760007C67D9 /* CardListCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9FC61A9226B87760007C67D9 /* CardListCell.xib */; };
+		9FF2A8EC284D4BA900087B78 /* CardListCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9FF2A8E7284D4BA900087B78 /* CardListCell.xib */; };
+		9FF2A8ED284D4BA900087B78 /* CardListCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FF2A8E8284D4BA900087B78 /* CardListCell.swift */; };
+		9FF2A8EE284D4BA900087B78 /* GangListCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FF2A8EA284D4BA900087B78 /* GangListCell.swift */; };
+		9FF2A8EF284D4BA900087B78 /* GangListCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9FF2A8EB284D4BA900087B78 /* GangListCell.xib */; };
+		9FF2A8F8284D4BE700087B78 /* Card.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FF2A8F1284D4BE700087B78 /* Card.swift */; };
+		9FF2A8F9284D4BE700087B78 /* Gang.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FF2A8F2284D4BE700087B78 /* Gang.swift */; };
+		9FF2A8FA284D4BE700087B78 /* Modification.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FF2A8F3284D4BE700087B78 /* Modification.swift */; };
+		9FF2A8FB284D4BE700087B78 /* Skill.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FF2A8F4284D4BE700087B78 /* Skill.swift */; };
+		9FF2A8FC284D4BE700087B78 /* Gun.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FF2A8F5284D4BE700087B78 /* Gun.swift */; };
+		9FF2A8FD284D4BE700087B78 /* Wargear.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FF2A8F6284D4BE700087B78 /* Wargear.swift */; };
+		9FF2A8FE284D4BE700087B78 /* Ganger.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FF2A8F7284D4BE700087B78 /* Ganger.swift */; };
+		9FF2A900284D4C0500087B78 /* NSObject+ClassName.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FF2A8FF284D4C0500087B78 /* NSObject+ClassName.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -60,11 +69,20 @@
 		9FC61A7D26B84FD3007C67D9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		9FC61A7F26B84FD3007C67D9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		9FC61A8626B8539A007C67D9 /* Cards.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Cards.plist; sourceTree = "<group>"; };
-		9FC61A8926B86FB7007C67D9 /* Card.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Card.swift; sourceTree = "<group>"; };
 		9FC61A8C26B87276007C67D9 /* CardParcer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardParcer.swift; sourceTree = "<group>"; };
 		9FC61A8E26B87546007C67D9 /* DataManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataManager.swift; sourceTree = "<group>"; };
-		9FC61A9126B87760007C67D9 /* CardListCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardListCell.swift; sourceTree = "<group>"; };
-		9FC61A9226B87760007C67D9 /* CardListCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CardListCell.xib; sourceTree = "<group>"; };
+		9FF2A8E7284D4BA900087B78 /* CardListCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CardListCell.xib; sourceTree = "<group>"; };
+		9FF2A8E8284D4BA900087B78 /* CardListCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CardListCell.swift; sourceTree = "<group>"; };
+		9FF2A8EA284D4BA900087B78 /* GangListCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GangListCell.swift; sourceTree = "<group>"; };
+		9FF2A8EB284D4BA900087B78 /* GangListCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = GangListCell.xib; sourceTree = "<group>"; };
+		9FF2A8F1284D4BE700087B78 /* Card.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Card.swift; sourceTree = "<group>"; };
+		9FF2A8F2284D4BE700087B78 /* Gang.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Gang.swift; sourceTree = "<group>"; };
+		9FF2A8F3284D4BE700087B78 /* Modification.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Modification.swift; sourceTree = "<group>"; };
+		9FF2A8F4284D4BE700087B78 /* Skill.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Skill.swift; sourceTree = "<group>"; };
+		9FF2A8F5284D4BE700087B78 /* Gun.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Gun.swift; sourceTree = "<group>"; };
+		9FF2A8F6284D4BE700087B78 /* Wargear.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Wargear.swift; sourceTree = "<group>"; };
+		9FF2A8F7284D4BE700087B78 /* Ganger.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Ganger.swift; sourceTree = "<group>"; };
+		9FF2A8FF284D4C0500087B78 /* NSObject+ClassName.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "NSObject+ClassName.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -111,6 +129,7 @@
 			isa = PBXGroup;
 			children = (
 				9F57DA8326C65E0700FEC44C /* UIViewController+NavigationController.swift */,
+				9FF2A8FF284D4C0500087B78 /* NSObject+ClassName.swift */,
 				9F57DA8D26C6685200FEC44C /* AppDelegate+ApplicationMode.swift */,
 			);
 			path = Extensions;
@@ -166,11 +185,11 @@
 		9FC61A7026B84FD1007C67D9 /* CardGen */ = {
 			isa = PBXGroup;
 			children = (
+				9FF2A8F0284D4BE700087B78 /* Model */,
+				9FF2A8E5284D4BA900087B78 /* Rows */,
 				9F57DA8226C65DDD00FEC44C /* Extensions */,
 				9F57DA7626C6599800FEC44C /* Flows */,
-				9FC61A9026B8773B007C67D9 /* Rows */,
 				9FC61A8B26B87266007C67D9 /* Services */,
-				9FC61A8826B86FA1007C67D9 /* DTO */,
 				9FC61A8526B8537E007C67D9 /* Source */,
 				9FC61A7126B84FD1007C67D9 /* AppDelegate.swift */,
 				9FC61A7326B84FD1007C67D9 /* SceneDelegate.swift */,
@@ -190,14 +209,6 @@
 			path = Source;
 			sourceTree = "<group>";
 		};
-		9FC61A8826B86FA1007C67D9 /* DTO */ = {
-			isa = PBXGroup;
-			children = (
-				9FC61A8926B86FB7007C67D9 /* Card.swift */,
-			);
-			path = DTO;
-			sourceTree = "<group>";
-		};
 		9FC61A8B26B87266007C67D9 /* Services */ = {
 			isa = PBXGroup;
 			children = (
@@ -208,13 +219,45 @@
 			path = Services;
 			sourceTree = "<group>";
 		};
-		9FC61A9026B8773B007C67D9 /* Rows */ = {
+		9FF2A8E5284D4BA900087B78 /* Rows */ = {
 			isa = PBXGroup;
 			children = (
-				9FC61A9126B87760007C67D9 /* CardListCell.swift */,
-				9FC61A9226B87760007C67D9 /* CardListCell.xib */,
+				9FF2A8E6284D4BA900087B78 /* CardListCell */,
+				9FF2A8E9284D4BA900087B78 /* GangListCell */,
 			);
 			path = Rows;
+			sourceTree = "<group>";
+		};
+		9FF2A8E6284D4BA900087B78 /* CardListCell */ = {
+			isa = PBXGroup;
+			children = (
+				9FF2A8E7284D4BA900087B78 /* CardListCell.xib */,
+				9FF2A8E8284D4BA900087B78 /* CardListCell.swift */,
+			);
+			path = CardListCell;
+			sourceTree = "<group>";
+		};
+		9FF2A8E9284D4BA900087B78 /* GangListCell */ = {
+			isa = PBXGroup;
+			children = (
+				9FF2A8EA284D4BA900087B78 /* GangListCell.swift */,
+				9FF2A8EB284D4BA900087B78 /* GangListCell.xib */,
+			);
+			path = GangListCell;
+			sourceTree = "<group>";
+		};
+		9FF2A8F0284D4BE700087B78 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				9FF2A8F1284D4BE700087B78 /* Card.swift */,
+				9FF2A8F2284D4BE700087B78 /* Gang.swift */,
+				9FF2A8F3284D4BE700087B78 /* Modification.swift */,
+				9FF2A8F4284D4BE700087B78 /* Skill.swift */,
+				9FF2A8F5284D4BE700087B78 /* Gun.swift */,
+				9FF2A8F6284D4BE700087B78 /* Wargear.swift */,
+				9FF2A8F7284D4BE700087B78 /* Ganger.swift */,
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -280,10 +323,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9FF2A8EF284D4BA900087B78 /* GangListCell.xib in Resources */,
 				9FC61A7E26B84FD3007C67D9 /* LaunchScreen.storyboard in Resources */,
 				9FC61A7B26B84FD3007C67D9 /* Assets.xcassets in Resources */,
 				9FC61A8726B8539A007C67D9 /* Cards.plist in Resources */,
-				9FC61A9426B87760007C67D9 /* CardListCell.xib in Resources */,
+				9FF2A8EC284D4BA900087B78 /* CardListCell.xib in Resources */,
 				9FC61A7926B84FD1007C67D9 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -297,7 +341,11 @@
 			files = (
 				9FC61A7626B84FD1007C67D9 /* CardListViewController.swift in Sources */,
 				9F57DA8C26C6628100FEC44C /* ApplicationMode.swift in Sources */,
+				9FF2A8FB284D4BE700087B78 /* Skill.swift in Sources */,
+				9FF2A900284D4C0500087B78 /* NSObject+ClassName.swift in Sources */,
 				9F57DA8426C65E0700FEC44C /* UIViewController+NavigationController.swift in Sources */,
+				9FF2A8FC284D4BE700087B78 /* Gun.swift in Sources */,
+				9FF2A8FA284D4BE700087B78 /* Modification.swift in Sources */,
 				9FC61A8F26B87546007C67D9 /* DataManager.swift in Sources */,
 				9F57DA9126C66C8B00FEC44C /* CardListViewModel.swift in Sources */,
 				9F57DA9326C66CB200FEC44C /* CardListAssembly.swift in Sources */,
@@ -306,16 +354,20 @@
 				9FC61A8D26B87276007C67D9 /* CardParcer.swift in Sources */,
 				9FC61A7226B84FD1007C67D9 /* AppDelegate.swift in Sources */,
 				9F57DA9626C6773200FEC44C /* TabBarViewConroller.swift in Sources */,
+				9FF2A8ED284D4BA900087B78 /* CardListCell.swift in Sources */,
 				9FC61A7426B84FD1007C67D9 /* SceneDelegate.swift in Sources */,
 				9F57DA9A26C677C100FEC44C /* TabBarAssembly.swift in Sources */,
-				9FC61A9326B87760007C67D9 /* CardListCell.swift in Sources */,
-				9FC61A8A26B86FB7007C67D9 /* Card.swift in Sources */,
+				9FF2A8F9284D4BE700087B78 /* Gang.swift in Sources */,
 				9F57DA9826C6776300FEC44C /* TabBarViewModel.swift in Sources */,
+				9FF2A8FE284D4BE700087B78 /* Ganger.swift in Sources */,
 				9F57DA7A26C659E500FEC44C /* GangViewController.swift in Sources */,
+				9FF2A8EE284D4BA900087B78 /* GangListCell.swift in Sources */,
+				9FF2A8FD284D4BE700087B78 /* Wargear.swift in Sources */,
 				9F57DA8A26C65F5700FEC44C /* DataManagerAssembly.swift in Sources */,
 				9F57DA7C26C659EF00FEC44C /* GangViewModel.swift in Sources */,
 				9F57DA8826C65F4800FEC44C /* DataManagerProtocols.swift in Sources */,
 				9F57DA8E26C6685200FEC44C /* AppDelegate+ApplicationMode.swift in Sources */,
+				9FF2A8F8284D4BE700087B78 /* Card.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

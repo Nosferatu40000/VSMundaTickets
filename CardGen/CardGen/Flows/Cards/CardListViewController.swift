@@ -35,7 +35,7 @@ class CardListViewController: UIViewController {
         
         rightBarButtonItem.image = viewModel.rightBarButtonItemImage()
     }
-    
+
     @objc
     override func navigationDidSet() {
         title = viewModel.title()

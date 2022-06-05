@@ -45,7 +45,7 @@ class CardListCell: UITableViewCell {
     }
     
     static func nibName() -> String {
-        return String(describing: Self.self)
+        return className()
     }
     @IBAction func stateButtonAction(_ sender: Any) {
         stateButtonCallback?()

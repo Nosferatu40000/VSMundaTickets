@@ -11,6 +11,7 @@ enum CardType: String, Codable {
     
     case common
     case vansaar
+    case grinders
     
     func image() -> UIImage? {
         return UIImage(named: self.rawValue)
